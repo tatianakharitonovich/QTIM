@@ -27,11 +27,11 @@
 <script setup lang="ts">
 const links: HeaderLinks[] = [
   {
-    path: '/works',
+    path: '/',
     title: 'Works',
   },
   {
-    path: '/about',
+    path: '/',
     title: 'About',
   },
 ]

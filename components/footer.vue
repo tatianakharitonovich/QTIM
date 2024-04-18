@@ -74,30 +74,30 @@ const info: InfoData[] = [
 
 const linksLeft: HeaderLinks[] = [
   {
-    path: '/Facebook',
+    path: '/',
     title: 'Facebook',
   },
   {
-    path: '/Instagram',
+    path: '/',
     title: 'Instagram',
   },
   {
-    path: '/Telegram',
+    path: '/',
     title: 'Telegram',
   },
 ]
 
 const linksRight: HeaderLinks[] = [
   {
-    path: '/Behance',
+    path: '/',
     title: 'Behance',
   },
   {
-    path: '/LinkedIn',
+    path: '/',
     title: 'LinkedIn',
   },
   {
-    path: '/Privacy-Policy',
+    path: '/',
     title: 'Privacy Policy',
   },
 ]
