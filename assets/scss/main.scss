@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* fonts */
+@font-face {
+  font-family: 'TTCommons';
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+  src:
+    local('Roboto'),
+    url('../fonts/TTCommons-Regular.ttf') format('truetype');
+}
+
+/* website color palette */
+:root {
+  --main-bg-color: rgb(255, 255, 255);
+  --main-color: rgb(16, 16, 16);
+  --hover-bg-color: rgb(35, 35, 35);
+  --second-bg-color: rgb(243, 243, 243);
+  --hover-second-bg-color: rgb(232, 232, 232);
+  --footer-bg-color: rgb(226, 190, 255);
+  --underline-color: rgb(121, 65, 167);
+}
+
+/* basic styles */--hover-second-bg-color
+html {
+  min-height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px; // 1rem
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'TTCommons', sans-serif;
+	font-style: normal;
+  line-height: 1.2;
+  background: var(--main-bg-color);
+  color: var(--main-color);
+}
+
+img {
+  max-width: 100%;
+}
+  
+a {
+  text-decoration: none;
+  outline: none;
+  color: var(--main-color);
+  transition: all 0.15s ease-in;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: underline;
+}
+
+.container {
+  width: 100%;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 5.25rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+button {
+  padding: 0;  
+  font-family: inherit;
+  border: none;
+  background-color: transparent;
+  transition: all 0.15s ease-in;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
