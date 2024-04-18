@@ -126,6 +126,7 @@ const linksRight: HeaderLinks[] = [
     line-height: 1;
     text-decoration-line: underline;
     text-decoration-thickness: 2px;
+    text-underline-offset: 0.875rem;
   }
 
   &-contacts {
